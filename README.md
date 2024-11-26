@@ -11,6 +11,14 @@ Este projeto é uma **API Restful** desenvolvida em **Node.js** utilizando o fra
 - **Instituição:** Faculdade de Tecnologia - Fatec Franca;
 - **Objetivo:** Implementar uma API para gerenciar produtos, explorando rotas REST e integração com banco de dados MongoDB;
 
+> [!IMPORTANT]  
+> - No projeto enviado pelo teams, tinha um atributo chamado <i>"status"</i>.
+> - Tal nome do atributo é uma palavra reservada.
+> - Para evitar qualquer conflito, alterei para o nome para <i>"produtoStatus"</i>.
+> - Segue print:
+
+![image](https://github.com/user-attachments/assets/16a02e62-6e08-41bc-a433-e04fd1a14fb6)
+
 ---
 
 ## Funcionalidades  
@@ -28,11 +36,13 @@ Este projeto é uma **API Restful** desenvolvida em **Node.js** utilizando o fra
 
 ## Como executar o projeto  
 
-### Pré-requisitos  
-Certifique-se de ter instalado em sua máquina:  
-- **Node.js** (v16 ou superior)  
-- **npm** (ou **yarn**) para gerenciar dependências  
-- **MongoDB** em execução (local ou remoto)  
+### Pré-requisitos
+
+> [!NOTE]
+> Certifique-se de ter instalado em sua máquina:
+> - **Node.js** (v16 ou superior)
+> - **npm** (ou **yarn**) para gerenciar dependências
+> - **MongoDB** em execução (local ou remoto) 
 
 ### Clone o repositório:
 ```bash
