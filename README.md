@@ -11,6 +11,22 @@ Este projeto é uma **API Restful** desenvolvida em **Node.js** utilizando o fra
 - **Instituição:** Faculdade de Tecnologia - Fatec Franca;
 - **Objetivo:** Implementar uma API para gerenciar produtos, explorando rotas REST e integração com banco de dados MongoDB;
 
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
+
+
 ---
 
 ## Funcionalidades  
@@ -28,8 +44,8 @@ Este projeto é uma **API Restful** desenvolvida em **Node.js** utilizando o fra
 
 ## Como executar o projeto  
 
-### Pré-requisitos  
-Certifique-se de ter instalado em sua máquina:  
+### Pré-requisitos
+
 - **Node.js** (v16 ou superior)  
 - **npm** (ou **yarn**) para gerenciar dependências  
 - **MongoDB** em execução (local ou remoto)  
