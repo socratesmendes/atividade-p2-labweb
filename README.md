@@ -11,6 +11,7 @@ Este projeto é uma **API Restful** desenvolvida em **Node.js** utilizando o fra
 - **Instituição:** Faculdade de Tecnologia - Fatec Franca;
 - **Objetivo:** Implementar uma API para gerenciar produtos, explorando rotas REST e integração com banco de dados MongoDB;
 
+<<<<<<< HEAD
 > [!NOTE]  
 > Highlights information that users should take into account, even when skimming.
 
@@ -26,6 +27,15 @@ Este projeto é uma **API Restful** desenvolvida em **Node.js** utilizando o fra
 > [!CAUTION]
 > Negative potential consequences of an action.
 
+=======
+> [!IMPORTANT]  
+> - No projeto enviado pelo teams, tinha um atributo chamado <i>"status"</i>.
+> - Tal nome do atributo é uma palavra reservada.
+> - Para evitar qualquer conflito, alterei para o nome para <i>"produtoStatus"</i>.
+> - Segue print:
+
+![image](https://github.com/user-attachments/assets/16a02e62-6e08-41bc-a433-e04fd1a14fb6)
+>>>>>>> c29fbc55f5256b0f8dab5c66503cbb5c74affb57
 
 ---
 
@@ -46,9 +56,17 @@ Este projeto é uma **API Restful** desenvolvida em **Node.js** utilizando o fra
 
 ### Pré-requisitos
 
+<<<<<<< HEAD
 - **Node.js** (v16 ou superior)  
 - **npm** (ou **yarn**) para gerenciar dependências  
 - **MongoDB** em execução (local ou remoto)  
+=======
+> [!NOTE]
+> Certifique-se de ter instalado em sua máquina:
+> - **Node.js** (v16 ou superior)
+> - **npm** (ou **yarn**) para gerenciar dependências
+> - **MongoDB** em execução (local ou remoto) 
+>>>>>>> c29fbc55f5256b0f8dab5c66503cbb5c74affb57
 
 ### Clone o repositório:
 ```bash
