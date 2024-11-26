@@ -51,4 +51,4 @@ npm run dev
 ```
 
 ### Testando a API:
-- Acesse http://localhost:3000 no navegador ou use ferramentas como Postman ou Insomnia para testar as rotas.
+- Acesse `http://localhost:3000` no navegador ou use ferramentas como Postman ou Insomnia para testar as rotas.
