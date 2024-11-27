@@ -1,6 +1,6 @@
 import express from "express";
 import connectDB from "./config/dbConnect.js";
-import produto from "./models/produto.js";
+import routes from "./routes/index.js";
 
 const dbConnect = await connectDB();
 
@@ -13,16 +13,7 @@ dbConnect.once("open", () => {
 });
 
 const app = express();
-app.use(express.json());
-
-app.get("/", (req, res) => {
-    res.status(200).send("Atividade Final (p2) - Laboratorio de Desenvolvimento Web");
-});
-
-app.get("/produtos", async (req, res) => {
-    const listaProdutos = await produto.find({});
-    res.status(200).json(listaProdutos);
-});
+routes(app);
 
 app.get("/produtos/:id", (req, res) => {
     const index = searchProduct(req.params.id);
