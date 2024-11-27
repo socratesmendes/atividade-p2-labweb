@@ -15,22 +15,6 @@ dbConnect.once("open", () => {
 const app = express();
 routes(app);
 
-app.get("/produtos/:id", (req, res) => {
-    const index = searchProduct(req.params.id);
-    res.status(200).json(produtos[index]);
-});
-
-app.post("/produtos", (req, res) => {
-    produtos.push(req.body);
-    res.status(201).send("Produto cadastrado com sucesso!")
-});
-
-app.put("/produtos/:id", (req, res) => {
-    const index = searchProduct(req.params.id);
-    produtos[index].nome = req.body.nome;
-    res.status(200).json(produtos[index]);
-});
-
 app.delete("/produtos/:id", (req, res) => {
     const index = searchProduct(req.params.id);
     produtos.splice(index, 1);
