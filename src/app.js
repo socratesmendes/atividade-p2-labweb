@@ -15,10 +15,4 @@ dbConnect.once("open", () => {
 const app = express();
 routes(app);
 
-app.delete("/produtos/:id", (req, res) => {
-    const index = searchProduct(req.params.id);
-    produtos.splice(index, 1);
-    res.status(200).send("Produto removido com sucesso.");
-});
-
 export default app;
