@@ -17,7 +17,6 @@ const app = express();
 app.use(express.json())
 routes(app);
 
-// eslint-disable-next-line no-unused-vars
 app.use(errorHandler);
 
 export default app;
