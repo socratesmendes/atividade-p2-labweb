@@ -1,3 +1,4 @@
+import notFound from "../erros/notfound.js";
 import produto from "../models/produto.js";
 
 class produtoController {
@@ -7,7 +8,7 @@ class produtoController {
             const listProducts = await produto.find({});
             res.status(200).json(listProducts);
         } catch (erro) {
-            next(erro);
+            next(erro); 
         }
     };
 
@@ -19,7 +20,7 @@ class produtoController {
             if (productFound !== null) {
                 res.status(200).json(productFound);
             } else {
-                res.status(404).json({ message: "Id do Produto não foi encontrado." });
+                next(new notFound("Id do Produto não foi encontrado."));
             }
         } catch (erro) {
             next(erro);
